@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1CB2D91E22B66D00AD56B0 /* Minecrafter.Reg.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB1CB2D81E22B66D00AD56B0 /* Minecrafter.Reg.ttf */; };
+		AB1CB2DB1E22B85E00AD56B0 /* InterstellarErosion.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB1CB2DA1E22B85E00AD56B0 /* InterstellarErosion.ttf */; };
 		AB9741221E21BFAE00491767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9741211E21BFAE00491767 /* AppDelegate.swift */; };
 		AB9741241E21BFAE00491767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9741231E21BFAE00491767 /* ViewController.swift */; };
 		AB9741271E21BFAE00491767 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB9741251E21BFAE00491767 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB1CB2D81E22B66D00AD56B0 /* Minecrafter.Reg.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Reg.ttf; sourceTree = "<group>"; };
+		AB1CB2DA1E22B85E00AD56B0 /* InterstellarErosion.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = InterstellarErosion.ttf; sourceTree = "<group>"; };
 		AB97411E1E21BFAE00491767 /* RetroCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetroCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB9741211E21BFAE00491767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB9741231E21BFAE00491767 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 		AB9741201E21BFAE00491767 /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				AB1CB2DA1E22B85E00AD56B0 /* InterstellarErosion.ttf */,
+				AB1CB2D81E22B66D00AD56B0 /* Minecrafter.Reg.ttf */,
 				AB9741211E21BFAE00491767 /* AppDelegate.swift */,
 				AB9741231E21BFAE00491767 /* ViewController.swift */,
 				AB9741251E21BFAE00491767 /* Main.storyboard */,
@@ -123,9 +129,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1CB2DB1E22B85E00AD56B0 /* InterstellarErosion.ttf in Resources */,
 				AB97412C1E21BFAE00491767 /* LaunchScreen.storyboard in Resources */,
 				AB9741291E21BFAE00491767 /* Assets.xcassets in Resources */,
 				AB9741271E21BFAE00491767 /* Main.storyboard in Resources */,
+				AB1CB2D91E22B66D00AD56B0 /* Minecrafter.Reg.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				AB9741321E21BFAE00491767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
